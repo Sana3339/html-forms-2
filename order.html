@@ -30,25 +30,44 @@
                 <td> $1,750,00.00</td>
             </tr>
         </table>
-        Order Form
 
-        Your name
+        <h2>Order Form</h2>
 
-        Who are we sending this to?
+        <form>
+            <p>
+                <label>Your name</label>
+                <input type="text" name="name">
+            </p>
 
-        Choose a melon
-        Watermleon
-        Canteloupe
-        Honeydew
+            <p>
+                <label>Who are we sending this to?</label>
+                <input type="text" name="recipient">
+            </p>
+            <p>
+                <label>Choose a melon</label>
+                <select>
+                    <option value="watermelon">Watermleon</option>
+                    <option>Canteloupe</option>
+                    <option>Honeydew</option>
+                </select>
+            </p>
 
-        When should we deliver?
-        Morning
-        Evening
-        Any time
+            When should we deliver?
+            <p>
+                <input type="radio" name="morning">
+                <label>Morning</label>
 
-        Enter your message:
+                <input type="radio" name="evening">
+                <label>Evening</label>
 
-        Subscribe to our newsletter
-        Yes
+                <input type="radio" name="anytime">
+                <label>Any time</label>
+            </p>
+
+            Enter your message:
+
+            Subscribe to our newsletter
+            Yes
+        </form>
     </body>
 </html>
