@@ -54,20 +54,25 @@
 
             When should we deliver?
             <p>
-                <input type="radio" name="morning">
+                <input type="radio" name="time" value="morning">
                 <label>Morning</label>
 
-                <input type="radio" name="evening">
+                <input type="radio" name="time" value="evening">
                 <label>Evening</label>
 
-                <input type="radio" name="anytime">
+                <input type="radio" name="time" value="any">
                 <label>Any time</label>
             </p>
 
-            Enter your message:
+            <p>Enter your message:</p>
+            <textarea name="message"></textarea>
 
-            Subscribe to our newsletter
-            Yes
+            <p>
+                <input type="checkbox" name="newsletter" value="Yes">
+                <label>Subscribe to our newsletter</label>
+            </p>
+
+            <input type="submit">
         </form>
     </body>
 </html>
